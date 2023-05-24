@@ -1,0 +1,220 @@
+
+/*1 - Integração inicial*/
+h1 {
+
+    color: blue;
+}
+
+/*2 - Comentários com CSS*/
+
+
+
+/*3 - ID precisa usar o '#'*/ 
+#title {
+    color: red;
+}
+
+/*4 - Classes - precisa usar '.'*/
+.text {
+    color: green;
+}
+
+/*5 - Background*/
+.background {
+background-color: blue;
+color: white;
+font-size: 50px;
+}
+
+/*6 - Dois elementos, uma regra*/
+
+p, 
+.title-small {
+color: red;
+}
+
+.title-small {
+    font-size: 25px;
+    color: green;
+}
+
+/*7 - Background image*/
+.background-image {
+    background-image: url("../img/meteoro.jpg");
+    padding: 20px;
+    color: white;
+
+}
+/*8 - Largura e altura*/
+
+#width-height {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+/*9- Padding*/
+
+#padding {
+    background-color: magenta;
+    padding: 15px;
+}
+
+/*10- Margin*/
+#margin {
+width: 200px;
+height: 200px;
+background-color: blue;
+margin: 20px;
+
+}
+
+/*11 - border*/
+#border {
+    border: 2px solid red;
+    width: 200px;
+    height: 200px;
+   
+}
+/*11 - border-radius*/
+#border-radius {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(139, 134, 134);
+    border: 5px solid blue;   
+    border-radius: 10px;
+}
+
+/*12 -cores*/
+#hex, #rgb, #hsl {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+#hex {
+background-color: #9fe29f;
+}
+
+#rgb {
+background-color: rgb(221, 160, 170);
+}
+
+#hsl {
+background-color: hsl(242, 76%, 44%);
+
+}
+
+/*Alinhamento de texto*/
+
+#center {
+    text-align: center;
+}
+
+/*Decoration*/
+
+#underline {
+    color: black;
+    text-decoration: underline;   
+}
+
+#line{
+    color: black;
+    text-decoration: line-through;
+}
+
+/*Fonte size*/
+
+#fonte-pequena {
+    font-size: 50px;
+}
+
+/*Transform (caixa alta/caixa baixa)*/
+#upper {
+text-transform: uppercase;
+}
+#lower {
+    text-transform: lowercase;
+}
+ p {
+    font-size: 50px;
+}
+/*Font family*/
+#serif {
+    font-family: georgia;
+    color: black;
+}
+#sans-serif {
+    color: blue;
+    font-family: helvetica;
+}
+#cursive {
+    font-family: cursive;
+}
+
+/*display*/
+.inline {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin: 5px;
+    display: inline-block;
+}
+.block {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    margin: 5px;
+}
+#none {
+    display: none;
+}
+
+/*Position*/
+
+#relative {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+#relative {
+    background-color: blueviolet;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+#absolute {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+#absolute {
+    background-color: rgb(208, 226, 43);
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+#fixed {
+    background-color: blue;
+    position: fixed;
+    top: 200px;
+    left: 60px;
+}
+
+/*relative e absolute*/
+
+#relative-2{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+}
+
+#absolute-1, #absolute-2 {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+}
